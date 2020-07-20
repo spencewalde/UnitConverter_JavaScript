@@ -1,0 +1,47 @@
+/*
+lab1.css
+7/20/2020
+Spencer Williams-Waldemar 
+intro web programming
+ */
+.main-body{
+    background-color:black;
+}
+.converter-body{
+    margin: auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background-color: slategray;
+    box-shadow: 0px 0px 10px 5px slategray;
+    color: seashell; 
+    border-style: ridge;
+}
+.converter-title{
+    transform: translate(0,20px);
+
+}
+.unit-type{
+    margin:50px;
+    margin-top: 60px;
+}
+
+.input-output{
+    margin: 50px;
+}
+
+input{
+    width: 160px;
+    height: 25px;
+    text-align: right;
+    
+}
+#inType,#outType{
+    width: 160px;
+    height: 20px;
+    color: forestgreen;
+    
+}
+
+

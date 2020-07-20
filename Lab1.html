@@ -1,0 +1,52 @@
+<!-- lab1.html--- 7/20/20---intro web programming -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Spencer Williams-Waldemar">
+    <title>
+        Unit Converter
+    </title>
+    <link rel="stylesheet" type="text/css" href="lab1.css">
+
+
+</head>
+
+<body class="main-body">
+    <!-- body of converter -->
+    <div class="converter-body">
+        <!-- title -->
+        <h1 class="converter-title">Unit Converter </h1>
+
+        <!-- unit type combobox -->
+        <div class="unit-type">
+            <select id="unitType">
+                <option value="" disabled selected>Unit Type</option>
+                <option value="Length">Length</option>
+                <option value="Mass">Mass</option>
+                <option value="Currency">Currency</option>
+            </select>
+        </div>
+
+        <!-- input--output && input type--output type-->
+        <div class="input-output">
+            <!-- inputbox for text -->
+            <input type="text" placeholder="Input" id="input">
+            <span>=</span>
+            <!-- inputbox for text -->
+            <input type="text" placeholder="Result" id="result">
+
+            <!-- combobox for input type -->
+            <select id="inType"></select>
+            <span>=</span>
+            <!-- combobox for output type -->
+            <select id="outType"></select>
+        </div>
+    </div>
+
+    <!-- js script link -->
+    <script src="lab1.js"></script>
+</body>
+
+</html>
